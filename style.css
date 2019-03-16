@@ -1,0 +1,275 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+nav{
+	background: rgba(55,10,55,0.5);
+}
+#portada {
+	background: url("imagenes/portada.jpg") no-repeat center center;
+	min-height:1000px;
+	display:block;
+	background-size:cover;
+	margin-right: -20px;
+	margin-bottom: 0px;
+}
+#tit{
+	color: white;
+	font-weight: 700;
+	font-size: 73px;
+}
+#tit2{
+	color: #ed322d;
+	font-weight: bold;
+	font-size: 70px;
+	margin:0 50px
+}
+#portada p{
+	color: #a8a8a8;
+	font-size: 20px;
+    margin:30px 200px 0;
+	font-weight:300;
+	letter-spacing:1px;
+}
+#graf{
+	background-color:#f8f8f8;
+}
+#quisq{
+	text-align: center;
+	font-weight: bold;
+	font-size:72px;
+	line-height:125%;
+	color: #404040;
+}
+#pq{
+	font-size:17px;
+	line-height:31px;
+	color:#5d5d5d;
+	font-weight:300;
+	margin-bottom: 20px;
+}
+#pq2{
+	font-size:17px;
+	line-height:31px;
+	color:#5d5d5d;
+	font-weight:300;
+	margin-top: 30px;
+}
+#linea1{
+	width:35px;
+	height:2px;
+	background:#bebebe;
+	display:block;
+	margin:15px 0 25px;
+}
+#linea2{
+	width:100%;
+	height:1px;
+	background:#d9d9d9;
+	display:block;
+	margin:40px 0 30px;
+}
+#primer{
+	margin-top: 150px;
+}
+#estilo4{
+  color:#5d5d5d;
+  font-size: 17px;
+}
+#text1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 72px;
+  color: #404040;
+}
+#text2{
+	text-align: center;
+	font-weight: bold;
+  	color: #5d5d5d;
+    font-size: 14px;
+}
+#services{
+	padding:130px 0;
+	background: url(imagenes/space.jpg) no-repeat center center;
+	display: block;
+	min-height:970px;
+	background-size:cover;
+}
+#services h1{
+	color: white;
+	font-size: 72px;
+	font-weight: bold;
+    text-align: center;
+}
+#pserv{
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 100;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+#linea3{
+	width: 35px;
+    height: 2px;
+    background: #bebebe;
+	margin:15px auto 30px;
+    display: block;
+}
+#contact{
+	background: url(imagenes/triangulo.jpg) no-repeat center center;
+	min-height: 1000px;
+	display:block;
+	background-size:cover;
+}
+#contact h1{
+	color: #404040;
+	text-align: center;
+	font-size: 72px;
+	font-weight: bold;
+	padding-top: 120px;
+}
+#contact p{
+	font-size: 24px;
+    line-height: 37px;
+    font-weight: 100;
+    text-align: center;
+	margin-bottom:50px;
+}
+#continer{
+	padding:100px 450px 110px;
+	width:480px;
+	margin:0 auto;
+	display:block;
+	background: white;
+	border: 1px solid #dfdfdf
+}
+#continer form{
+	text-align: center;
+	width:500px;
+	margin-left: -250px;
+}
+#continer input{
+	height:40px;
+	width:100%;
+	margin-bottom:50px;
+	border:none;
+	border-bottom:1px solid #ebebeb;
+	font-size:14px;
+	line-height:40px;
+	color:#8e8e8e;
+	font-weight:300;
+}
+textarea{
+	height:40px;
+	width:100%;
+	margin-bottom:40px;
+	border:none;
+	border-bottom:1px solid #ebebeb;
+	font-size:14px;
+	line-height:38px;
+	color:#8e8e8e;
+	font-weight:300;
+}
+#continer button{
+	height:60px;
+	width:240px;
+	background:none;
+	border:2px solid #878787;
+	font-size:17px;
+	color:#3c3c3c;
+	margin:40px auto 0;
+	display:block;
+}
+.social{
+	margin-top: 50px;
+	margin-bottom:50px;
+}
+.social i{
+	font-size:25px;
+	line-height:50px;
+	color:#8a8a8a;
+	border:1px solid #8a8a8a;
+	display:inline-block;
+	height:50px;
+	width:50px;
+	margin:0 15px;
+}
+#credit{
+	color:#8a8a8a;
+}
+#arrowfirst{
+	height:130px;
+	width: 60px;
+	background:#802c64;
+	text-align:center;
+	font-size:50px;
+	color:#9a417c;
+}
+#textfirst{
+	text-align: left;
+	height:130px;
+	background:#7a225d;
+}
+#textfirst h5{
+	font-size:20px;
+	line-height:36px;
+	color:#eaafd6;
+}
+#textfirst p{
+	font-size:15px;
+	line-height:22px;
+	color:#c39fb7;
+	text-align:left;
+	font-weight:300;
+}
+#arrowsd{
+	height:130px;
+	background:#500c50;
+	text-align:center;
+	font-size:50px;
+	color:#9a417c;
+}
+#textsd{
+	text-align: left;
+	height:130px;
+	background:#480048;
+}
+#textsd h5{
+	font-size:20px;
+	line-height:36px;
+	color:#eaafd6;
+}
+#textsd p{
+	font-size:15px;
+	line-height:22px;
+	color:#c39fb7;
+	text-align:left;
+	font-weight:300;
+}
+#arrowth{
+	height:130px;
+	background:#3a0c3a;
+	text-align:center;
+	font-size:50px;
+	color:#9a417c;
+}
+#textth{
+	text-align: left;
+	height:130px;
+	background:#300030;
+}
+#textth h5{
+	font-size:20px;
+	line-height:36px;
+	color:#eaafd6;
+}
+#textth p{
+	font-size:15px;
+	line-height:22px;
+	color:#c39fb7;
+	text-align:left;
+	font-weight:300;
+}
+table{
+	margin-top: 100px;
+}
